@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<head>
+<title>Valhalla Spacelines</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="background.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
+
+</head>
+
+    <body>
+
+        <div class ="menu-bar">
+            <img src="logo.png" class="logo">
+        <div class="title">
+            <p>Valhalla Spacelines</p>
+        </div>
+        <ul>
+        
+        <li><a href= "index.html">Home</a></li>
+        <li><a href= "us.html">About Valhalla</a></li>
+        <li><a href= "ships.html">Ships</a>
+        <li><a href= "onboard.html">Experiences</a></li>
+        <li class ="active"><a href= "#">Contact Us</a></li>
+        
+        
+        </ul>
+
+        </div>
+
+        <div class ="background_check">
+
+            <form action="/index.html" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <label for="background-check">Upload background check:</label>
+                <input type="file" id="background-check" name="background-check">
+        
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script>
+flatpickr("input[type=date]", {});
+
+</script>
+
+
+    </body>
+
+</html>
